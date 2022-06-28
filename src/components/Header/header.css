@@ -1,0 +1,130 @@
+.header-container{
+	padding-bottom: 15rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../public/assets/images/header-background.jpg') center center no-repeat;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-grid-container{
+    padding-left: 10px;
+    padding-top: 2rem;
+}
+.header-grid{
+    display: grid;
+    grid-template-rows: 50%;
+    place-items: center;
+    gap: 1.5rem;
+    margin: auto;
+}
+.header-grid h2{
+    font-weight: 700;
+    color: White;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+.app-link-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+.header-grid p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: white;
+    text-align: center;
+
+}
+.app-link-grid button{
+    background: #57D2E8;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+}
+@media only screen and (min-width: 768px) {
+    .header-container{
+        padding-bottom: 5rem;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../public/assets/images/header-background.jpg') center center no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header-grid-container{
+        padding-left: 70px;
+        padding-top: 3rem;
+    }
+    .header-grid{
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 45% 50%;
+        place-items: center;
+        gap: 2rem;
+        margin: auto;
+    }
+    .header-grid h2{
+        font-weight: 700;
+        text-align: left;
+        color: White;
+        font-size: 2.7rem;
+    
+    }
+    .app-link-grid{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 1rem;
+        color: white;
+    }
+    .header-grid p{
+        color: white;
+        text-align: left;
+
+    }
+    .app-link-grid button{
+        background: #57D2E8;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 10px;
+        color: white;
+        width: 150px;
+        font-family: 'Poppins';
+        font-weight: 400;
+
+    }
+}
+@media only screen and (max-width: 280px) {
+    .app-link-grid button{
+        background: #57D2E8;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding:7px;
+        color: white;
+        width: 100%;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
+    .header-grid h2{
+        font-weight: 700;
+        text-align: left;
+        color: White;
+        font-size: 1.7rem;
+        text-align: center;
+    
+    }
+    .header-grid p{
+        color: white;
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+}
