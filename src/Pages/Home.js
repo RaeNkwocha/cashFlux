@@ -1,5 +1,6 @@
 import React from "react";
 import Demo from "../components/Demo/Demo";
+import Download from "../components/Download/Download";
 import Features from "../components/Features/Features";
 import Header from "../components/Header/Header";
 import Nav from "../components/Nav/Nav";
@@ -32,6 +33,9 @@ const Home = () => {
       </section>
       <section style={{ background: "#2F2C3D" }}>
         <Screenshots />
+      </section>
+      <section className="download-background">
+        <Download />
       </section>
     </>
   );

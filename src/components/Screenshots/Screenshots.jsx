@@ -61,10 +61,10 @@ const Screenshots = () => {
     },
   ];
 
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 920);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 920);
+    setDesktop(window.innerWidth > 768);
   };
 
   useEffect(() => {
@@ -84,7 +84,7 @@ const Screenshots = () => {
       </div>
 
       <Swiper
-        slidesPerView={isDesktop ? 5 : 4}
+        slidesPerView={isDesktop ? 5 : 3}
         spaceBetween={isDesktop ? 25 : 10}
         pagination={{
           clickable: true,
