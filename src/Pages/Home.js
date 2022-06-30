@@ -2,6 +2,7 @@ import React from "react";
 import Demo from "../components/Demo/Demo";
 import Download from "../components/Download/Download";
 import Features from "../components/Features/Features";
+import Footer from "../components/footer/Footer";
 import Header from "../components/Header/Header";
 import Nav from "../components/Nav/Nav";
 import Preview from "../components/Preview/Preview";
@@ -37,6 +38,9 @@ const Home = () => {
       <section className="download-background">
         <Download />
       </section>
+      <footer style={{ background: "#262431" }}>
+        <Footer />
+      </footer>
     </>
   );
 };
