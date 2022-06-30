@@ -4,6 +4,7 @@ import Features from "../components/Features/Features";
 import Header from "../components/Header/Header";
 import Nav from "../components/Nav/Nav";
 import Preview from "../components/Preview/Preview";
+import Screenshots from "../components/Screenshots/Screenshots";
 import Team from "../components/Team/Team";
 
 const Home = () => {
@@ -28,6 +29,9 @@ const Home = () => {
       </section>
       <section style={{ background: "#262431" }}>
         <Demo />
+      </section>
+      <section style={{ background: "#2F2C3D" }}>
+        <Screenshots />
       </section>
     </>
   );

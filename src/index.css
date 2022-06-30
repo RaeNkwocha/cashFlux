@@ -5,3 +5,35 @@ h1, h2,h3,strong{
   li, p, span,a{
     font-family: 'Poppins', sans-serif;
   }
+  /* .swiper-button-next{
+    color: whitesmoke;
+    padding-left: 50px;
+  }
+  .swiper-button-prev{
+    color: whitesmoke;
+    padding-right: 50px;
+    font-size: 150px;
+
+    
+  } */
+
+
+  .swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 2px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  color: whitesmoke;
+  cursor: pointer;
+  background-size: 2px 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0.7rem;
+}
+.mySwiper{
+  display: flex;
+  flex-direction: column;
+}
