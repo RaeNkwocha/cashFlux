@@ -32,8 +32,9 @@ const Header = () => {
             </div>
             <div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                sit amet lectus id erat hendrerit ullamcorper
+                Cashflux is a digital wallet/payment service that provide secure
+                payment option for customer and merchant with the use of
+                Safetoken to complete a merchant initiated transaction.
               </p>
             </div>
             <div className="app-link-grid">

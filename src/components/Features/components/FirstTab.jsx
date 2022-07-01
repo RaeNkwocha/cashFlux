@@ -8,28 +8,25 @@ const FirstTab = () => {
         <div>
           <div className="inner-tab-grid">
             <div>
-              <strong>Goal Setting</strong>
+              <strong>Swift Transfers</strong>
+              <p>With CashFlux you can make payments without any delay</p>
+            </div>
+          </div>
+          <div className="inner-tab-grid">
+            <div>
+              <strong>Save Money</strong>
               <p>
-                Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit
-                urna suspendisse luctus sena
+                CashFlux helps you to save your money and gives interests in
+                return
               </p>
             </div>
           </div>
           <div className="inner-tab-grid">
             <div>
-              <strong>Goal Setting</strong>
+              <strong>Pay utility bills</strong>
               <p>
-                Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit
-                urna suspendisse luctus sena
-              </p>
-            </div>
-          </div>
-          <div className="inner-tab-grid">
-            <div>
-              <strong>Goal Setting</strong>
-              <p>
-                Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit
-                urna suspendisse luctus sena
+                CashFlux allows you to pay and take care of all your utility
+                bills
               </p>
             </div>
           </div>
@@ -40,29 +37,22 @@ const FirstTab = () => {
         <div>
           <div className="inner-tab-grid">
             <div>
-              <strong>Goal Setting</strong>
+              <strong>Seamless transactions</strong>
+              <p>With Cashflux, you will always have seamless transactions</p>
+            </div>
+          </div>
+          <div className="inner-tab-grid">
+            <div>
+              <strong>Funds transfers</strong>
               <p>
-                Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit
-                urna suspendisse luctus sena
+                Cashflux allows you to transfer funds to any parts of the world.
               </p>
             </div>
           </div>
           <div className="inner-tab-grid">
             <div>
-              <strong>Goal Setting</strong>
-              <p>
-                Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit
-                urna suspendisse luctus sena
-              </p>
-            </div>
-          </div>
-          <div className="inner-tab-grid">
-            <div>
-              <strong>Goal Setting</strong>
-              <p>
-                Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit
-                urna suspendisse luctus sena
-              </p>
+              <strong>Win gifts</strong>
+              <p>With Cashflux, you stand a chance to win exciting prizes.</p>
             </div>
           </div>
         </div>
