@@ -1,0 +1,78 @@
+.support-header-grid{
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../../public/assets/images/header-background.jpg') center center no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding:30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+}
+.support-header-grid h1{
+    font-weight:bolder;
+    text-align: center;
+    color:white;
+    font-size: 2.5rem;
+    width:100%;
+
+   
+}
+.support-header-h1{
+    display:grid;
+    place-items:center;
+}
+.support-btn{
+    display:flex;
+   justify-content: center;
+   align-items:center;
+   gap:0.5rem;
+   margin-top:10px;
+}
+.support-btn span{
+    color:white
+}
+.support-btn button{
+    border:none;
+    outline:none;
+    padding:5px;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 768px) {
+    .support-header-grid{
+        padding:70px;
+          padding-bottom: 5rem;
+             background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../../public/assets/images/header-background.jpg') center center no-repeat;
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+     }
+     .support-header-grid h1{
+         font-weight:bolder;
+         text-align: center;
+         color:white;
+         font-size: 3rem;
+         width:70%;
+     
+        
+     }
+     .support-header-h1{
+         display:grid;
+         place-items:center;
+     }
+     .support-btn{
+         display:flex;
+        justify-content: center;
+        align-items:center;
+        gap:0.5rem;
+        margin-top:10px;
+     }
+     .support-btn span{
+         color:white
+     }
+     .support-btn button{
+         border:none;
+         outline:none;
+         padding:5px;
+         border-radius: 10px;
+     }
+}

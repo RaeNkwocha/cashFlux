@@ -3,7 +3,7 @@ import screenshot from "../images/screenshot-1.png";
 
 const FirstTab = () => {
   return (
-    <div className="first-tab-holder">
+    <div className="first-tab-holder" style={{ color: "black" }}>
       <div className="first-tab">
         <div>
           <div className="inner-tab-grid">

@@ -85,7 +85,7 @@ const Screenshots = () => {
 
       <Swiper
         slidesPerView={isDesktop ? 5 : 3}
-        spaceBetween={isDesktop ? 25 : 10}
+        spaceBetween={isDesktop ? 5 : 5}
         pagination={{
           clickable: true,
         }}

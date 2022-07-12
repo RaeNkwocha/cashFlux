@@ -7,7 +7,6 @@ import Header from "../components/Header/Header";
 import Nav from "../components/Nav/Nav";
 import Preview from "../components/Preview/Preview";
 import Screenshots from "../components/Screenshots/Screenshots";
-import Team from "../components/Team/Team";
 
 const Home = () => {
   return (
@@ -20,16 +19,14 @@ const Home = () => {
           <Header />
         </header>
       </div>
-      <section style={{ background: "#262431" }}>
-        <Team />
-      </section>
-      <section style={{ background: "#2F2C3D" }}>
+
+      <section style={{ background: "white" }}>
         <Features />
       </section>
       <section className="preview-video-holder">
         <Preview />
       </section>
-      <section style={{ background: "#262431" }}>
+      <section style={{ background: "white" }}>
         <Demo />
       </section>
       <section style={{ background: "#2F2C3D" }}>
@@ -38,7 +35,7 @@ const Home = () => {
       <section className="download-background">
         <Download />
       </section>
-      <footer style={{ background: "#262431" }}>
+      <footer style={{ background: "whitesmoke" }}>
         <Footer />
       </footer>
     </>

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import "./nav.css";
 
@@ -16,10 +17,21 @@ const Nav = () => {
           <nav className="nav-bar">
             <h1 style={{ zIndex: "200" }}>CashFlux</h1>
             <ul className="nav-items">
-              <li>Home</li>
-              <li>Blog</li>
-              <li>Features</li>
-              <li>Contact</li>
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                <li>Home</li>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/F.A.Qs"
+              >
+                <li>F.A.Qs</li>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/support"
+              >
+                <li>Support</li>
+              </Link>
             </ul>
             <div style={{ zIndex: "200" }} className="hamburger">
               <button onClick={openNav}>
@@ -56,10 +68,21 @@ const Nav = () => {
         {open ? (
           <div className="mobile-nav">
             <ul>
-              <li>Home</li>
-              <li>Blog</li>
-              <li>Features</li>
-              <li>Contact</li>
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                <li>Home</li>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/F.A.Qs"
+              >
+                <li>F.A.Qs</li>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/support"
+              >
+                <li>Support</li>
+              </Link>
             </ul>
           </div>
         ) : null}

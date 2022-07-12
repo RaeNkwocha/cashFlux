@@ -1,0 +1,102 @@
+.support-grid-main-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+
+}
+
+.support-grid-body{
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
+    padding: 27px;
+
+
+}
+.support-grid-body-two{
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.support-grid-img-holder{
+    display: grid;
+    place-items: center;
+}
+.support-grid-img-holder img{
+    width: 70%;
+}
+.support-grid-body-heading{
+    display:grid;
+    place-items:center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.support-grid-main-container button{
+    border: 1px solid blue;
+    outline: none;
+    padding: 4px;
+    background: transparent;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 768px) {
+    .support-grid-main-container{
+        display:grid;
+        grid-template-columns: 40% 40%;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+    
+    }
+    
+    .support-grid-body{
+        display: grid;
+        place-items: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        border-radius: 10px;
+        padding: 27px;
+    
+    
+    }
+    .support-grid-body-two{
+        display: grid;
+        place-items: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        border-radius: 10px;
+        padding: 30px;
+    
+    }
+    .support-grid-img-holder{
+        display: grid;
+        place-items: center;
+    }
+    .support-grid-img-holder img{
+        width: 70%;
+    }
+    .support-grid-body-heading{
+        display:grid;
+        place-items:center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .support-grid-main-container button{
+        border: 1px solid blue;
+        outline: none;
+        padding: 4px;
+        background: transparent;
+        border-radius: 10px;
+    }
+}

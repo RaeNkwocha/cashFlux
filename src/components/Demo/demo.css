@@ -6,12 +6,15 @@
     width: 100%;
     margin: auto;
     gap: 4rem;
+    color:black;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
-
+.first-demo-body{
+    color:black
+}
 .first-demo-flex img{
-    width: 100%;
+    width: 70%;
 }
 
 .first-demo-flex h3{
@@ -33,7 +36,7 @@
         margin: auto;
         gap: 4rem;
         padding: 70px;
-        padding-top: 100px;
+        padding-top: 30px;
     }
   
     .first-demo-flex h3{

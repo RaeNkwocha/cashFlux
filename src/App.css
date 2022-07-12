@@ -11,5 +11,5 @@ li, p, span{
 }
 :root {
   --blue: #6495ed;
-  --white: #faf0e6;
+  --white: white;
 }

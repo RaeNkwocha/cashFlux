@@ -1,5 +1,4 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import smartphone from "./images/header-smartphones.png";
 import "./header.css";
 import Container from "react-bootstrap/esm/Container";
@@ -41,8 +40,8 @@ const Header = () => {
               <Downloadbtn />
             </div>
           </div>
-          <div>
-            <img src={smartphone} width="90%" alt="" />
+          <div style={{ display: "grid", placeItems: "center" }}>
+            <img src={smartphone} width="100%" alt="" />
           </div>
         </div>
       </div>

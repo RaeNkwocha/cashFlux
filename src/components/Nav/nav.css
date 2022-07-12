@@ -1,6 +1,5 @@
 :root {
     --nav: #262431;
-    --white: #faf0e6;
   }
 
 .nav-bar{
@@ -99,7 +98,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 30px;
+        padding-top:13px;
+        padding: 8px;
     }
     .hamburger{
         display: none;
@@ -120,7 +120,7 @@
     }
     .nav-container{
         position: relative;
-        background: none;
+        background: var(--nav);
         color: white;
     }
     .mobile-nav{
